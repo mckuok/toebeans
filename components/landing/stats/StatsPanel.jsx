@@ -10,7 +10,7 @@ export default function StatsPanel() {
                 <Stats rotationDegree={16.19} number={120} unit="Rehomed"/>
             </div>
             <div className="px-5">
-                <Stats rotationDegree={-168.44} number={43} unit="Redy"/>
+                <Stats rotationDegree={-168.44} number={43} unit="Ready"/>
             </div>
         </div>
     )

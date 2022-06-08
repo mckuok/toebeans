@@ -1,5 +1,8 @@
 import Head from 'next/head'
 import HeroSection from '../components/landing/hero'
+import SectionOne from '../components/landing/sections/section1'
+import SectionTwo from '../components/landing/sections/section2'
+import SectionThree from '../components/landing/sections/section3'
 import StatsPanel from '../components/landing/stats/StatsPanel'
 
 export default function Home() {
@@ -13,9 +16,15 @@ export default function Home() {
 
       <main>
         <HeroSection />
-        <div className='mx-auto'>
-          <StatsPanel />
-        </div>
+        <StatsPanel />
+        <SectionOne />
+        <br />
+        <SectionTwo />
+        <br />
+        <SectionThree />
+        <br />
+        <br />
+        <br />
       </main>
 
     </div>
