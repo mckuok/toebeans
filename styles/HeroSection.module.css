@@ -1,0 +1,53 @@
+.image-section {
+    display: block;
+    position: relative;
+    height: 447px;
+    width: 849px;
+}
+
+.patch {
+    position: absolute;
+}
+
+.patch1 {
+    top: 149.28px;
+}
+
+.patch2 {
+    top: 203px;
+    left: 268.46px;
+}
+
+.patch3 {
+    top: 80.78px;
+    left: 453px;
+}
+
+.cat {
+    position: absolute;
+}
+
+.cat1 {
+    top: 70px;
+    left: 84px;
+}
+
+
+.cat2 {
+    top: 212px;
+    left: 309px;
+}
+
+
+.cat3 {
+    top: 0px;
+    left: 440px;
+}
+
+.text-section {
+}
+
+.text-section p {
+    font-weight: 600;
+    font-size: 40px;
+}
