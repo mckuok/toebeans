@@ -2,7 +2,7 @@ import Stats from "./Stats";
 
 export default function StatsPanel() {
     return (
-        <div className="flex flex-row justify-center">
+        <div className="flex flex-col md:flex-row justify-center text-center gap-y-7">
             <div className="px-5">
                 <Stats rotationDegree={0} number={163} unit="Rescued"/>
             </div>

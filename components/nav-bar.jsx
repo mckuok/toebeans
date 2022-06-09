@@ -35,7 +35,7 @@ export default function Navbar() {
                     </div>
                 </div>
             </div>
-            <div className={`${hamburgerMenuDisplayClass} md:hidden link-text text-xl relative z-10`}>
+            <div className={`${hamburgerMenuDisplayClass} md:hidden link-text text-xl relative z-20`}>
                 <div className='absolute bg-white w-full'>
                     <hr />
                     {menuItems.map((item, index) => (

@@ -5,10 +5,6 @@
     width: 849px;
 }
 
-.patch {
-    position: absolute;
-}
-
 .patch1 {
     top: 149.28px;
 }
@@ -21,10 +17,6 @@
 .patch3 {
     top: 80.78px;
     left: 453px;
-}
-
-.cat {
-    position: absolute;
 }
 
 .cat1 {
@@ -44,10 +36,15 @@
     left: 440px;
 }
 
-.text-section {
-}
-
 .text-section p {
     font-weight: 600;
     font-size: 40px;
+}
+
+.love {
+    color: #CE5B5B;
+}
+
+.friend {
+    color: var(--theme-text-color);
 }
