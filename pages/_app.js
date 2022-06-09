@@ -2,6 +2,7 @@ import Head from 'next/head'
 
 import Navbar from '../components/nav-bar'
 import '../styles/globals.css'
+import 'material-icons/iconfont/material-icons.css';
 
 function MyApp({ Component, pageProps }) {
   return (

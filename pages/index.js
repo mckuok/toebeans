@@ -17,6 +17,7 @@ export default function Home() {
       <main>
         <HeroSection />
         <StatsPanel />
+        <br />
         <SectionOne />
         <br />
         <SectionTwo />
