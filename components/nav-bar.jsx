@@ -35,11 +35,12 @@ export default function Navbar() {
                     </div>
                 </div>
             </div>
-            <div className={`${hamburgerMenuDisplayClass} md:hidden link-text text-xl relative`}>
+            <div className={`${hamburgerMenuDisplayClass} md:hidden link-text text-xl relative z-10`}>
                 <div className='absolute bg-white w-full'>
+                    <hr />
                     {menuItems.map((item, index) => (
                         <div key={index} >
-                            <p className='py-5'> {item} </p> 
+                            <p className='py-5 px-5'> {item} </p> 
                             <hr />
                         </div>
                         )
