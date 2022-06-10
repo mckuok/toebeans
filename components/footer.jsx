@@ -41,7 +41,7 @@ export default function Footer() {
                 </table>
             </div>
             <div className='leading-relaxed'>
-                <p className='font-semibold'> Toe Beans & Dreams Adoption Cafe </p>
+                <p className='font-semibold'> Toe Beans &amp; Dreams Adoption Cafe </p>
                 <p> Pearl Kai Shopping Center </p>
                 <p> 98-199 Kamehemeha Hwy Unit E-7 </p>
                 <p> Aiea, Hawaii, 96701  </p>
