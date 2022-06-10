@@ -1,8 +1,9 @@
 import Image from 'next/image';
 import React, { useState, useCallback, useRef } from 'react';
 
-import styles from '../styles/Navbar.module.css';
-import { useSizeChanges, useWindowDimensions } from '../services/size-hook';
+import { useSizeChanges } from '../services/size-hook';
+
+import menuIcon from '../public/nav/hamburger.svg';
 
 export default function Navbar() {
     const [expandMobileMenu, setExpandMobileMenu] = useState(false);
@@ -38,7 +39,7 @@ export default function Navbar() {
                             {menuItems.map((item, index) => <p key={index}> {item} </p>)}
                         </div>
                         <div className='flex flex-row justify-end md:hidden'>
-                            <span className="material-icons" onClick={mobileMenuClicked}>menu</span>  
+                            <Image src={menuIcon} height={30} width={30} onClick={mobileMenuClicked}/>
                         </div>
                     </div>
                 </div>
