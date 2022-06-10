@@ -10,6 +10,7 @@ export default function SectionOne() {
         <Section 
             backgroundUrl="/landing/section-one-background.svg"
             backgroundHeight={358}
+            backgroundWidth={1440}
             leftInfo={<Image src={image} />}
             rightInfo={
                 <>

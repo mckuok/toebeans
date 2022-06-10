@@ -10,7 +10,8 @@ export default function SectionThree() {
     return (
         <Section 
             backgroundUrl="/landing/section-three-background.svg"
-            backgroundHeight={351}
+            backgroundHeight={353}
+            backgroundWidth={1440}
             leftInfo={
                 <Image src={image} height={300} width={424}/>
             }

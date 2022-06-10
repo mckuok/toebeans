@@ -8,7 +8,8 @@ export default function SectionTwo() {
     return (
         <Section 
             backgroundUrl="/landing/section-two-background.svg"
-            backgroundHeight={358}
+            backgroundHeight={384}
+            backgroundWidth={1440}
             rightInfo={<Image src={image} />}
             leftInfo={
                 <>
