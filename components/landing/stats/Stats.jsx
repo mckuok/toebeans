@@ -6,11 +6,13 @@ import patch from './patch.svg';
 
 export default function Stats({number, unit, rotationDegree}) {
     return (
-        <div className={styles.container}>
-            <Image src={patch} style={{transform: `rotate(${rotationDegree}deg)`}}/>
+        <div className='relative flex justify-center'>
+            <div className='h-40 w-40 md:h-auto md:w-auto'>
+                <Image src={patch} style={{transform: `rotate(${rotationDegree}deg)`}}/>
+            </div>
             <div className={styles.stats}>
-                <p className={styles.number}>{number}</p>
-                <p className={styles.unit}>{unit}</p>
+                <p className={`text-5xl md:text-7xl ${styles.number}`}>{number}</p>
+                <p className={`text-xl md:text-3xl ${styles.unit}`}>{unit}</p>
             </div>
         </div>
     )

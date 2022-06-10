@@ -45,9 +45,9 @@ export default function HeroSection() {
                 <div className='hidden md:block'>
                     <CatPictures />
                 </div>
-                <div className={`md:hidden relative h-full`} style={{opacity: 0.25}}>
+                <div className={`md:hidden relative h-full`} style={{opacity: 0.30}}>
                     <div style={{position: 'absolute', bottom: 0, right: 0}}>
-                        <Image src={cat1} width={211 * 1.3} height={234 * 1.3} layout='fixed'/>
+                        <Image src={cat1} width={211 * 1.5} height={234 * 1.5} layout='fixed'/>
                     </div>
                 </div>
             </div>

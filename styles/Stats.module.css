@@ -10,12 +10,10 @@
 }
 
 .number {
-    font-size: 70px;
     font-weight: 600;
     color: var(--theme-text-color);
 }
 
 .unit {
-    font-size: 30px;
     color: var(--regular-text-color);
 }
