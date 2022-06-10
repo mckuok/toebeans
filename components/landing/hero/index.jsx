@@ -1,7 +1,7 @@
 import Image from 'next/image';
 
 import CatBackgroundPatch from "./cat-background-patch";
-import styles from '../../../styles/HeroSection.module.css';
+import styles from '../../../styles/landing/HeroSection.module.css';
 
 import cat1 from './cat1.png';
 import cat2 from './cat2.png';

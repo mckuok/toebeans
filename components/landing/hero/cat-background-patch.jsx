@@ -1,4 +1,4 @@
-import styles from '../../../styles/CatBackgroundPatch.module.css';
+import styles from '../../../styles/landing/CatBackgroundPatch.module.css';
 
 export default function CatBackgroundPatch({rotationDegree, color}) {
     return (

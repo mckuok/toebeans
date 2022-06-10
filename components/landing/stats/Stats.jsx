@@ -1,7 +1,7 @@
 
 import Image from 'next/image';
 
-import styles from '../../../styles/Stats.module.css'
+import styles from '../../../styles/landing/Stats.module.css'
 import patch from './patch.svg';
 
 export default function Stats({number, unit, rotationDegree}) {

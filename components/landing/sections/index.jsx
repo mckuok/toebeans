@@ -1,7 +1,7 @@
 import { useRef } from 'react';
 
 import { useSizeChanges } from "../../../services/size-hook";
-import styles from "../../../styles/Section.module.css";
+import styles from "../../../styles/landing/Section.module.css";
 
 export default function Section({backgroundUrl, backgroundHeight, backgroundWidth, leftInfo, rightInfo}) {
     const contentRef = useRef();

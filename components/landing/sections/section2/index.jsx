@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import styles from "../../../../styles/SectionOne.module.css";
+import styles from "../../../../styles/landing/SectionOne.module.css";
 
 import image from '../../../../public/landing/cat.png'
 import Section from '../'
