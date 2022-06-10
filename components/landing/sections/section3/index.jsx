@@ -2,14 +2,14 @@ import Image from 'next/image';
 import sectionStyles from "../../../../styles/landing/SectionOne.module.css";
 import styles from "../../../../styles/landing/SectionThree.module.css"
 
-import image from '../../../../public/landing/kat charities.png'
+import image from '../../../../public/landing/sections/kat charities.png'
 import Section from '..'
 
 
 export default function SectionThree() {
     return (
         <Section 
-            backgroundUrl="/landing/section-three-background.svg"
+            backgroundUrl="/landing/sections/section-three-background.svg"
             backgroundHeight={353}
             backgroundWidth={1440}
             leftInfo={
