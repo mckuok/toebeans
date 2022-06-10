@@ -1,6 +1,5 @@
 import Image from 'next/image';
 import React, { useState, useCallback, useRef } from 'react';
-import logo from './logo.png';
 
 import styles from '../styles/Navbar.module.css';
 import { useSizeChanges, useWindowDimensions } from '../services/size-hook';
@@ -31,7 +30,7 @@ export default function Navbar() {
             <div className='fixed md:relative bg-white z-50 w-full' ref={navBarRef}>
                 <div className="flex flex-row justify-between items-center mt-5 md:my-5 mx-5 md:mx-0 ">
                     <div className='flex flex-row items-center link-text'>
-                        <Image src={logo} alt="Toe Beans &amp; Dreams Logo" width={140} height={140}/>
+                        <Image src={'/logo.png'} alt="Toe Beans &amp; Dreams Logo" width={140} height={140}/>
                         <p className={`hidden md:inline md:text-base lg:text-lg pl-5`}> Toe Beans &amp; Dreams</p>
                     </div>
                     <div className='w-full max-w-full md:w-3/4 md:max-w-5xl'>

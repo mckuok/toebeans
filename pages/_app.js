@@ -3,6 +3,7 @@ import Head from 'next/head'
 import Navbar from '../components/nav-bar'
 import '../styles/globals.css'
 import 'material-icons/iconfont/material-icons.css';
+import Footer from '../components/footer';
 
 function MyApp({ Component, pageProps }) {
   return (
@@ -16,6 +17,7 @@ function MyApp({ Component, pageProps }) {
       <div className='container mx-auto'>
         <Navbar />
         <Component {...pageProps} />
+        <Footer />
       </div>
     </>
   )
