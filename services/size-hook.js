@@ -27,3 +27,22 @@ export function useWindowDimensions() {
 
   return windowDimensions;
 }
+
+export function useSizeChanges(ref) {
+  const [dimensions, setDimensions] = useState(ref.current ? {width: ref.current.offsetWidth, height: ref.current.offsetHeight} : null);
+  useEffect(() => {
+    setDimensions(ref.current ? {width: ref.current.offsetWidth, height: ref.current.offsetHeight} : null);
+
+    function handleResize() {
+      setDimensions(ref.current ? {width: ref.current.offsetWidth, height: ref.current.offsetHeight} : null);
+    }
+
+    window.addEventListener('resize', handleResize);
+    return () => window.removeEventListener('resize', handleResize);
+
+  }, []);
+
+  return dimensions;
+
+
+}

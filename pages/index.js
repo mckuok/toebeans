@@ -17,15 +17,11 @@ export default function Home() {
       <main>
         <HeroSection />
         <StatsPanel />
-        <br />
-        <SectionOne />
-        <br />
-        <SectionTwo />
-        <br />
-        <SectionThree />
-        <br />
-        <br />
-        <br />
+        <div className='py-5 flex flex-col justify-center gap-y-14 md:gap-y-9 '>
+          <SectionOne />
+          <SectionTwo />
+          <SectionThree />
+        </div>
       </main>
 
     </div>
