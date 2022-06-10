@@ -11,7 +11,7 @@ export default function Footer() {
                 <div className={`${styles.newsletter} text-center`}>
                     <p className="link-text">sign up for our newsletter</p>
                 </div>
-                <div className={`flex flex-row justify-start lg:justify-between relative content-center pt-8 px-0 lg:px-5 gap-x-14 lg:gap-x-0 ${styles['icons-color']}`}>
+                <div className={`flex flex-row flex-wrap justify-start lg:justify-between relative content-center pt-8 px-0 lg:px-5 gap-x-10 lg:gap-x-0 gap-y-8 ${styles['icons-color']}`}>
                     <Image src={'/footer/facebook.svg'} width={30} height={30}/>
                     <Image src={'/footer/instagram.svg'} width={30} height={30}/>
                     <Image src={'/footer/email.svg'} width={30} height={30}/>
