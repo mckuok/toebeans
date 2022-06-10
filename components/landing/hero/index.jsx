@@ -3,9 +3,9 @@ import Image from 'next/image';
 import CatBackgroundPatch from "./cat-background-patch";
 import styles from '../../../styles/landing/HeroSection.module.css';
 
-import cat1 from './cat1.png';
-import cat2 from './cat2.png';
-import cat3 from './cat3.png';
+import cat1 from '../../../public/landing/hero/cat1.png';
+import cat2 from '../../../public/landing/hero/cat2.png';
+import cat3 from '../../../public/landing/hero/cat3.png';
 
 function CatPictures() {
      return (
