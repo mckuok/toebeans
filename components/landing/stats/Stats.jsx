@@ -8,7 +8,7 @@ export default function Stats({number, unit, rotationDegree}) {
     return (
         <div className='relative flex justify-center'>
             <div className='h-40 w-40 md:h-auto md:w-auto'>
-                <Image src={patch} style={{transform: `rotate(${rotationDegree}deg)`}}/>
+                <Image src={patch} alt='Background' style={{transform: `rotate(${rotationDegree}deg)`}}/>
             </div>
             <div className={styles.stats}>
                 <p className={`text-5xl md:text-7xl ${styles.number}`}>{number}</p>

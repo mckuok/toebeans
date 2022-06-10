@@ -13,7 +13,7 @@ export default function SectionThree() {
             backgroundHeight={353}
             backgroundWidth={1440}
             leftInfo={
-                <Image src={image} height={300} width={424}/>
+                <Image src={image} alt='KAT Charities' height={300} width={424}/>
             }
             rightInfo={
                 <div>

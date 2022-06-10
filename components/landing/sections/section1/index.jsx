@@ -11,7 +11,7 @@ export default function SectionOne() {
             backgroundUrl="/landing/sections/section-one-background.svg"
             backgroundHeight={358}
             backgroundWidth={1440}
-            leftInfo={<Image src={image} />}
+            leftInfo={<Image src={image} alt='Food' />}
             rightInfo={
                 <>
                     <p className={styles.title}>Café</p>

@@ -5,17 +5,17 @@ export default function Footer() {
     return (
         <div className={`w-full flex flex-col lg:flex-row content-start justify-start lg:justify-between py-11 px-16 text-xl gap-y-10 ${styles.background}`}>
             <div className='hidden lg:block'>
-                <Image src='/logo.png' width={60 * 2.5} height={60 * 2.5}/>
+                <Image src='/logo.png' alt='Toe Beans &amp; Dreams Logo'  width={60 * 2.5} height={60 * 2.5} />
             </div>
             <div>
                 <div className={`${styles.newsletter} text-center`}>
                     <p className="link-text">sign up for our newsletter</p>
                 </div>
                 <div className={`flex flex-row flex-wrap justify-start lg:justify-between relative content-center pt-8 px-0 lg:px-5 gap-x-10 lg:gap-x-0 gap-y-8 ${styles['icons-color']}`}>
-                    <Image src={'/footer/facebook.svg'} width={30} height={30}/>
-                    <Image src={'/footer/instagram.svg'} width={30} height={30}/>
-                    <Image src={'/footer/email.svg'} width={30} height={30}/>
-                    <Image src={'/footer/gift.svg'} width={30} height={30}/>
+                    <Image src={'/footer/facebook.svg'} alt='Facebook' width={30} height={30}/>
+                    <Image src={'/footer/instagram.svg'} alt='Instagram' width={30} height={30}/>
+                    <Image src={'/footer/email.svg'} alt='Email' width={30} height={30}/>
+                    <Image src={'/footer/gift.svg'} alt='Donations' width={30} height={30}/>
                 </div>
             </div>
             <div>

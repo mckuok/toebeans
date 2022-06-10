@@ -23,7 +23,7 @@ export default function Section({backgroundUrl, backgroundHeight, backgroundWidt
         <div>
             <div className={`relative overflow-hidden`} style={{height, minHeight: backgroundHeight}} ref={componentRef}>
                 <div className="absolute w-full h-full overflow-hidden w-auto md:w-full">
-                    <img className={`max-w-none h-full ${imageDivWidthClass}`} src={backgroundUrl}/>
+                    <img className={`max-w-none h-full ${imageDivWidthClass}`} src={backgroundUrl} alt='background' />
                 </div>
                 <div className="flex flex-col justify-center h-full">
                     <div className={`flex flex-col md:flex-row justify-center w-3/5 mx-auto`} ref={contentRef}>

@@ -39,7 +39,7 @@ export default function Navbar() {
                             {menuItems.map((item, index) => <p key={index}> {item} </p>)}
                         </div>
                         <div className='flex flex-row justify-end md:hidden'>
-                            <Image src={menuIcon} height={30} width={30} onClick={mobileMenuClicked}/>
+                            <Image src={menuIcon} alt='Menu' height={30} width={30} onClick={mobileMenuClicked}/>
                         </div>
                     </div>
                 </div>

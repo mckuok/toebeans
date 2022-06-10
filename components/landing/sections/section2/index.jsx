@@ -10,7 +10,7 @@ export default function SectionTwo() {
             backgroundUrl="/landing/sections/section-two-background.svg"
             backgroundHeight={384}
             backgroundWidth={1440}
-            rightInfo={<Image src={image} />}
+            rightInfo={<Image src={image} alt='Cat' />}
             leftInfo={
                 <>
                     <p className={styles.title}>Playtime</p>
