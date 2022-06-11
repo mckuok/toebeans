@@ -27,7 +27,7 @@ export default function Navbar() {
     }
 
     return (
-        <nav className='container mx-auto flex flex-col'>
+        <nav className='flex flex-col'>
             <div className='fixed md:relative bg-white z-50 w-full' ref={navBarRef}>
                 <div className="flex flex-row justify-between items-center mt-5 md:my-5 mx-5 md:mx-0 ">
                     <div className='flex flex-row items-center link-text'>
