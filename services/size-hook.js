@@ -40,7 +40,7 @@ export function useSizeChanges(ref) {
     window.addEventListener('resize', handleResize);
     return () => window.removeEventListener('resize', handleResize);
 
-  }, []);
+  }, [ref]);
 
   return dimensions;
 

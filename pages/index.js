@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import ComingSoonBanner from '../components/landing/coming-soon'
 import HeroSection from '../components/landing/hero'
 import SectionOne from '../components/landing/sections/section1'
 import SectionTwo from '../components/landing/sections/section2'
@@ -15,6 +16,7 @@ export default function Home() {
       </Head>
 
       <main>
+        <ComingSoonBanner />
         <HeroSection />
         <StatsPanel />
         <div className='py-5 flex flex-col justify-center gap-y-14 md:gap-y-9 '>
