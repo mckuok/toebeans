@@ -1,19 +1,19 @@
-import Image from 'next/image';
 import sectionStyles from "../../../../styles/landing/SectionOne.module.css";
 import styles from "../../../../styles/landing/SectionThree.module.css"
 
 import image from '../../../../public/landing/sections/kat charities.png'
 import Section from '..'
 
+import bg from '../../../../public/landing/sections/section-three-background.svg'
 
 export default function SectionThree() {
     return (
         <Section 
-            backgroundUrl="/landing/sections/section-three-background.svg"
+            backgroundImg={bg}
             backgroundHeight={353}
             backgroundWidth={1440}
             leftInfo={
-                <Image src={image} alt='KAT Charities' height={300} width={424}/>
+                <img src={image} alt='KAT Charities' height={300} width={424}/>
             }
             rightInfo={
                 <div>

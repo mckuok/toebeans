@@ -1,5 +1,3 @@
-import Image from 'next/image';
-
 import CatBackgroundPatch from "./cat-background-patch";
 import styles from '../../../styles/landing/HeroSection.module.css';
 
@@ -20,13 +18,13 @@ function CatPictures() {
                 <CatBackgroundPatch rotationDegree={1.08} color="#ECEB9A"/>
             </div>
             <div className={`absolute ${styles.cat1}`}>
-                <Image src={cat1} alt='Cat 1' width={211} height={234} layout='fixed'/>
+                <img src={cat1} alt='Cat 1' width={211} height={234} layout='fixed'/>
             </div>
             <div className={`absolute ${styles.cat2}`}>
-                <Image src={cat2} alt='Cat 2' width={261} height={225} layout='fixed'/>
+                <img src={cat2} alt='Cat 2' width={261} height={225} layout='fixed'/>
             </div>
             <div className={`absolute ${styles.cat3}`}>
-                <Image src={cat3} alt='Cat 3' width={409} height={278} layout='fixed'/>
+                <img src={cat3} alt='Cat 3' width={409} height={278} layout='fixed'/>
             </div>
             <div className='md:hidden relative w-full h-full bg-white opacity-60' />
         </div>
@@ -47,7 +45,7 @@ export default function HeroSection() {
                 </div>
                 <div className={`md:hidden relative h-full`} style={{opacity: 0.30}}>
                     <div style={{position: 'absolute', bottom: 0, right: 0}}>
-                        <Image src={cat1} alt='Cat 1' width={211 * 1.5} height={234 * 1.5} layout='fixed'/>
+                        <img src={cat1} alt='Cat 1' width={211 * 1.5} height={234 * 1.5} layout='fixed'/>
                     </div>
                 </div>
             </div>

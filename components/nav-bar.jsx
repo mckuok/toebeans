@@ -1,8 +1,8 @@
-import Image from 'next/image';
 import React, { useState, useCallback, useRef } from 'react';
 
 import { useSizeChanges } from '../services/size-hook';
 
+import logo from '../public/logo.png';
 import menuIcon from '../public/nav/hamburger.svg';
 
 export default function Navbar() {
@@ -31,7 +31,7 @@ export default function Navbar() {
             <div className='fixed md:relative bg-white z-50 w-full' ref={navBarRef}>
                 <div className="flex flex-row justify-between items-center mt-5 md:my-5 mx-5 md:mx-0 ">
                     <div className='flex flex-row items-center link-text'>
-                        <Image src={'/logo.png'} alt="Toe Beans &amp; Dreams Logo" width={140} height={140}/>
+                        <img src={logo} alt="Toe Beans &amp; Dreams Logo" width={140} height={140}/>
                         <p className={`hidden md:inline md:text-base lg:text-lg pl-5`}> Toe Beans &amp; Dreams</p>
                     </div>
                     <div className='w-full max-w-full md:w-3/4 md:max-w-5xl'>
@@ -39,7 +39,7 @@ export default function Navbar() {
                             {menuItems.map((item, index) => <p key={index}> {item} </p>)}
                         </div>
                         <div className='flex flex-row justify-end md:hidden'>
-                            <Image src={menuIcon} alt='Menu' height={30} width={30} onClick={mobileMenuClicked}/>
+                            <img src={menuIcon} alt='Menu' height={30} width={30} onClick={mobileMenuClicked}/>
                         </div>
                     </div>
                 </div>

@@ -1,16 +1,17 @@
-import Image from 'next/image';
 import styles from "../../../../styles/landing/SectionOne.module.css";
 
 import image from '../../../../public/landing/sections/cat.png'
 import Section from '../'
 
+import bg from '../../../../public/landing/sections/section-two-background.svg'
+
 export default function SectionTwo() {
     return (
         <Section 
-            backgroundUrl="/landing/sections/section-two-background.svg"
+            backgroundImg={bg}
             backgroundHeight={384}
             backgroundWidth={1440}
-            rightInfo={<Image src={image} alt='Cat' />}
+            rightInfo={<img src={image} alt='Cat' />}
             leftInfo={
                 <>
                     <p className={styles.title}>Playtime</p>

@@ -1,21 +1,26 @@
-import Image from 'next/image';
 import styles from '../styles/Footer.module.css'
+
+import logo from '../public/logo.png';
+import fb from '../public/footer/facebook.svg';
+import instagram from '../public/footer/instagram.svg';
+import email from '../public/footer/email.svg';
+import donations from '../public/footer/gift.svg';
 
 export default function Footer() {
     return (
         <div className={`w-full flex flex-col lg:flex-row content-start justify-start lg:justify-between py-11 px-16 text-xl gap-y-10 ${styles.background}`}>
             <div className='hidden lg:block'>
-                <Image src='/logo.png' alt='Toe Beans &amp; Dreams Logo'  width={60 * 2.5} height={60 * 2.5} />
+                <img src={logo} alt='Toe Beans &amp; Dreams Logo'  width={60 * 2.5} height={60 * 2.5} />
             </div>
             <div>
                 <div className={`${styles.newsletter} text-center`}>
                     <p className="link-text">sign up for our newsletter</p>
                 </div>
                 <div className={`flex flex-row flex-wrap justify-start lg:justify-between relative content-center pt-8 px-0 lg:px-5 gap-x-10 lg:gap-x-0 gap-y-8 ${styles['icons-color']}`}>
-                    <Image src={'/footer/facebook.svg'} alt='Facebook' width={30} height={30}/>
-                    <Image src={'/footer/instagram.svg'} alt='Instagram' width={30} height={30}/>
-                    <Image src={'/footer/email.svg'} alt='Email' width={30} height={30}/>
-                    <Image src={'/footer/gift.svg'} alt='Donations' width={30} height={30}/>
+                    <img src={fb} alt='Facebook' width={30} height={30}/>
+                    <img src={instagram} alt='Instagram' width={30} height={30}/>
+                    <img src={email} alt='Email' width={30} height={30}/>
+                    <img src={donations} alt='Donations' width={30} height={30}/>
                 </div>
             </div>
             <div>
