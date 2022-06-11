@@ -18,7 +18,12 @@ export default function Home() {
       <main>
         <ComingSoonBanner />
         <div className='container mx-auto'>
+          {/* padding added for coming soon banner */}
+          <div className='py-10 md:py-0'/>
+          {/* padding added for coming soon banner */}
+
           <HeroSection />
+          <div className='py-5 md:py-0'/>
           <StatsPanel />
           <div className='py-5 flex flex-col justify-center gap-y-14 md:gap-y-9 '>
             <SectionOne />

@@ -45,7 +45,7 @@ export default function HeroSection() {
                 </div>
                 <div className={`md:hidden relative h-full`} style={{opacity: 0.30}}>
                     <div style={{position: 'absolute', bottom: 0, right: 0}}>
-                        <img src={cat1} alt='Cat 1' width={211 * 1.5} height={234 * 1.5} layout='fixed'/>
+                        <img src={cat1} alt='Cat 1' width={211 * 1.2} height={234 * 1.2} layout='fixed'/>
                     </div>
                 </div>
             </div>
