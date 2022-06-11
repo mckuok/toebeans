@@ -3,6 +3,7 @@ import arrow from '../../../public/landing/coming-soon/arrow.svg';
 
 import { useCallback, useRef } from 'react';
 import { useSizeChanges } from '../../../services/size-hook';
+import ExternalLink from '../../utils/ExternalLink';
 
 export default function ComingSoonBanner() {
     const bannerRef = useRef();
@@ -30,7 +31,7 @@ export default function ComingSoonBanner() {
                         <h1 className="text-3xl md:text-5xl lg:text-6xl">Toe Beans &amp; Dreams, Coming Soon.</h1>
                     </div>
                     <div className="py-6"/>
-                    <p className="text-2xl md:text-3xl lg:text-4xl"> Follow our <a className="link-text" href="https://www.instagram.com/toebeans_and_dreams/">Instagram</a> for the latest updates.</p>
+                    <p className="text-2xl md:text-3xl lg:text-4xl"> Follow our <ExternalLink href="https://www.instagram.com/toebeans_and_dreams/">Instagram</ExternalLink> for the latest updates.</p>
                 </div>
                 <div className='flex flex-col justify-center items-center animate-bounce my-10 pointer cursor-pointer' onClick={scrollToMainContent}>
                     <p className='text-xl'> sneak peek?</p>

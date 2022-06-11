@@ -5,6 +5,7 @@ import fb from '../public/footer/facebook.svg';
 import instagram from '../public/footer/instagram.svg';
 import email from '../public/footer/email.svg';
 import donations from '../public/footer/gift.svg';
+import ExternalLink from './utils/ExternalLink';
 
 export default function Footer() {
     return (
@@ -18,9 +19,9 @@ export default function Footer() {
                 </div>
                 <div className={`flex flex-row flex-wrap justify-start lg:justify-between relative content-center pt-8 px-0 lg:px-5 gap-x-10 lg:gap-x-0 gap-y-8 ${styles['icons-color']}`}>
                     <img src={fb} alt='Facebook' width={30} height={30}/>
-                    <img src={instagram} alt='Instagram' width={30} height={30}/>
-                    <img src={email} alt='Email' width={30} height={30}/>
-                    <img src={donations} alt='Donations' width={30} height={30}/>
+                    <ExternalLink href="https://www.instagram.com/toebeans_and_dreams/"><img src={instagram} alt='Instagram' width={30} height={30}/></ExternalLink>
+                    <ExternalLink href="mailto:info@katcharities.org"><img src={email} alt='Email' width={30} height={30}/></ExternalLink>
+                    <ExternalLink href="https://www.paypal.com/paypalme/katcharities"><img src={donations} alt='Donations' width={30} height={30}/></ExternalLink>
                 </div>
             </div>
             <div>
