@@ -1,5 +1,6 @@
 import logo from '../../../public/logo.png';
 import arrow from '../../../public/landing/coming-soon/arrow.svg';
+
 import { useCallback, useRef } from 'react';
 import { useSizeChanges } from '../../../services/size-hook';
 
@@ -18,7 +19,9 @@ export default function ComingSoonBanner() {
     }, [bannerSize]);
     
     return (
-        <div className="w-full h-screen text-left lg:text-center container px-10 lg:px-0" ref={bannerRef}>
+        <div className="w-full h-screen text-left lg:text-center px-10 lg:px-0" ref={bannerRef} style={{
+            backgroundImage: 'url("/landing/coming-soon/bg.png")'
+        }}>
             <div className='flex flex-col h-full justify-beteween'>
                 <div className="flex flex-col justify-center h-full">
                     <div className="flex flex-col lg:flex-row items-start lg:items-center justify-start lg:justify-center w-full flex-wrap">
