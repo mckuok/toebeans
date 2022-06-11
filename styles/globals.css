@@ -11,6 +11,11 @@
     text-transform: uppercase;
     color: var(--theme-text-color);
     font-weight: 600;
+    cursor: pointer;
+}
+
+.link-text:hover {
+    text-decoration: underline;
 }
 
 html, body {
