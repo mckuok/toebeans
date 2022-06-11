@@ -17,12 +17,14 @@ export default function Home() {
 
       <main>
         <ComingSoonBanner />
-        <HeroSection />
-        <StatsPanel />
-        <div className='py-5 flex flex-col justify-center gap-y-14 md:gap-y-9 '>
-          <SectionOne />
-          <SectionTwo />
-          <SectionThree />
+        <div className='container mx-auto'>
+          <HeroSection />
+          <StatsPanel />
+          <div className='py-5 flex flex-col justify-center gap-y-14 md:gap-y-9 '>
+            <SectionOne />
+            <SectionTwo />
+            <SectionThree />
+          </div>
         </div>
       </main>
 
